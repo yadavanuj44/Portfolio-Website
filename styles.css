@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap');
 
 :root {
-    --primary-color: #60A5FA;
+    --primary-color: #00203FFF;
     --dark-gray: #78716C;
-    --off-white:#E5E7EB;
+    --off-white:#ADEFD1FF;
+    --back-color: white;
+    --inside-header-footer:#F0FDF4;
 }
 
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0px;
+    background-color: var(--back-color);
 }
 
 .container {
@@ -49,19 +53,22 @@ body {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--inside-header-footer);
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
 }
 
 .navigation .link {
     text-decoration: none;
-    color: white;
+    color: #BBF7D0;
 }
 
 .navigation .nav-pills {
@@ -70,6 +77,8 @@ body {
 
 .navigation .link-active {
     font-weight: bold;
+    border: 1px solid #BBF7D0;
+    border-radius: 1rem;
 }
 
 
@@ -92,34 +101,91 @@ body {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: var(--primary-color);    
 }
 
 .section{
-    padding: 2rem;
-}
-.section h1 {
     text-align: center;
+    padding: 2rem;
 }
 
 .ow{
     background-color: var(--off-white);
+    border-radius: 2rem;
 }
 
+.skillContainer {
+    background-color: white;
+    width: 80%;
+    border-radius: 2rem;
+    margin: auto;
+}
 
+.skill {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.2rem;
+    padding-right: 1rem;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 2rem;
+    font-family: 'Genos', sans-serif;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 80%;
+}
+
+.javascript {
+    width: 60%;
+}
+
+.git {
+    width: 80%;
+}
+
+.reactjs {
+    width: 50%;
+}
+
+.webHosting {
+    width: 80%;
+}
+.csharp {
+    width: 80%;
+}
+.net{
+    width: 70%;
+}
+.xamarin{
+    width: 90%;
+}
+.python{
+    width: 50%;
+}
+.icon {
+    max-width: 2rem;
+    max-height: 2rem;
+}
 .footer{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
-    border-bottom-right-radius: 1rem;
+    color: var(--inside-header-footer);
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    margin-top: 2rem;
 }
 .footer .footer-header{
     font-weight: bold;
     font-size: large;
 }
 .footer .link{
-    color: white;
+    color: var(--inside-header-footer);
 }
 
 .footer ul{
