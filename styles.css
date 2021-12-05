@@ -76,6 +76,7 @@ body {
 
 .hero {
     padding: 2rem;
+    padding-top: 3rem;
 }
 
 .hero .hero-img {
@@ -87,6 +88,7 @@ body {
 .hero .hero-heading {
     padding-top: 1rem;
     color: var(--dark-gray);
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -111,6 +113,10 @@ body {
     text-align: center;
     color: white;
     border-bottom-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer .link{
     color: white;
