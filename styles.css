@@ -82,7 +82,9 @@ body {
 }
 
 
-
+.center{
+    text-align: center;
+}
 .hero {
     padding: 2rem;
     padding-top: 3rem;
