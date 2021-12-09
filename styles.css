@@ -108,7 +108,7 @@ body {
 
 .section{
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .ow{
@@ -175,7 +175,7 @@ body {
 }
 .footer{
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 0.5rem 0.5rem;
     text-align: center;
     color: var(--inside-header-footer);
     border-top-right-radius: 2rem;
