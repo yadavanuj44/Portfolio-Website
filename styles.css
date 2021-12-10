@@ -29,7 +29,6 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
@@ -69,6 +68,11 @@ body {
 .navigation .link {
     text-decoration: none;
     color: #BBF7D0;
+}
+.navigation .link:hover {
+    background-color: var(--off-white);
+    border-radius: 1rem;
+    color: black;
 }
 
 .navigation .nav-pills {
